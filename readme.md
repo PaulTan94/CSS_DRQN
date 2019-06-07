@@ -1,1 +1,1 @@
-# the 
+# The project is about the Cooperative Spectrum Sensing using Deep Recurrent Q-Network

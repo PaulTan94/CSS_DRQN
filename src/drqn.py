@@ -29,7 +29,7 @@ class DRQN:
             c_names, n_l1, w_initializer, b_initializer = \
                 ['eval_net_params' + str(self.su_id), tf.GraphKeys.GLOBAL_VARIABLES], 10, \
                 tf.random_normal_initializer(0., 0.3), tf.constant_initializer(0.1)
-            
+
             # first layer
             with tf.variable_scope('l1'):
                 w1 = tf.get_variable('w1', [self.n_channel, n_l1], initializer=w_initializer, collections=c_names)
